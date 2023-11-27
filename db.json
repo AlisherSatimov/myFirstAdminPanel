@@ -1,0 +1,155 @@
+{
+  "orders": [
+    {
+      "date": "2023-01-01",
+      "clientName": "John Doe",
+      "totalPrice": 99.99,
+      "status": "Created"
+    },
+    {
+      "date": "2023-01-02",
+      "clientName": "Jane Smith",
+      "totalPrice": 149.99,
+      "status": "Packing"
+    },
+    {
+      "date": "2023-01-03",
+      "clientName": "Alex Johnson",
+      "totalPrice": 199.99,
+      "status": "InCar"
+    },
+    {
+      "date": "2023-01-04",
+      "clientName": "Emily Williams",
+      "totalPrice": 79.99,
+      "status": "Delivered"
+    },
+    {
+      "date": "2023-01-05",
+      "clientName": "Daniel Brown",
+      "totalPrice": 129.99,
+      "status": "Created"
+    },
+    {
+      "date": "2023-01-06",
+      "clientName": "Olivia Jones",
+      "totalPrice": 179.99,
+      "status": "Packing"
+    },
+    {
+      "date": "2023-01-07",
+      "clientName": "William Miller",
+      "totalPrice": 219.99,
+      "status": "InCar"
+    },
+    {
+      "date": "2023-01-08",
+      "clientName": "Sophia Davis",
+      "totalPrice": 89.99,
+      "status": "Delivered"
+    },
+    {
+      "date": "2023-01-09",
+      "clientName": "Michael Wilson",
+      "totalPrice": 139.99,
+      "status": "Created"
+    },
+    {
+      "date": "2023-01-10",
+      "clientName": "Emma Anderson",
+      "totalPrice": 189.99,
+      "status": "Packing"
+    },
+    {
+      "date": "2023-01-11",
+      "clientName": "Christopher Moore",
+      "totalPrice": 259.99,
+      "status": "InCar"
+    },
+    {
+      "date": "2023-01-12",
+      "clientName": "Ava Clark",
+      "totalPrice": 99.99,
+      "status": "Delivered"
+    },
+    {
+      "date": "2023-01-13",
+      "clientName": "Matthew Thomas",
+      "totalPrice": 149.99,
+      "status": "Created"
+    },
+    {
+      "date": "2023-01-14",
+      "clientName": "Isabella Baker",
+      "totalPrice": 199.99,
+      "status": "Packing"
+    },
+    {
+      "date": "2023-01-15",
+      "clientName": "Ethan Taylor",
+      "totalPrice": 299.99,
+      "status": "InCar"
+    },
+    {
+      "date": "2023-01-16",
+      "clientName": "Madison Green",
+      "totalPrice": 129.99,
+      "status": "Delivered"
+    },
+    {
+      "date": "2023-01-17",
+      "clientName": "Aiden White",
+      "totalPrice": 179.99,
+      "status": "Created"
+    },
+    {
+      "date": "2023-01-18",
+      "clientName": "Chloe Hall",
+      "totalPrice": 229.99,
+      "status": "Packing"
+    },
+    {
+      "date": "2023-01-19",
+      "clientName": "Logan Ward",
+      "totalPrice": 79.99,
+      "status": "InCar"
+    },
+    {
+      "date": "2023-01-20",
+      "clientName": "Sophie Turner",
+      "totalPrice": 149.99,
+      "status": "Delivered"
+    }
+  ],
+  "products": [
+    {
+      "first_name": "Sabzi",
+      "last_name": "Poliz ekini",
+      "age": 2,
+      "email": "Karzinka",
+      "password": "Oshga yaxshi ketadi",
+      "image": "https://media.istockphoto.com/id/619252960/photo/carrot.jpg?s=612x612&w=0&k=20&c=C-PlZ2oHW2SDCkaZXn8rg1UFdeF5ismwiy3v7uQRVKE=",
+      "id": 1
+    },
+    {
+      "first_name": "Go'sht",
+      "last_name": "Molniki",
+      "age": 9,
+      "email": "To'xtaniyoz Ota",
+      "password": "Mazali",
+      "image": "https://t4.ftcdn.net/jpg/00/83/36/05/360_F_83360582_oxUzWNwMqPLewOONSG5V8Kb6kfmDkdeP.jpg",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "first_name": "Alisher",
+      "last_name": "Satimov",
+      "age": 22,
+      "email": "alishersatimov07@gmail.com",
+      "password": "12345678",
+      "image": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+      "id": 1
+    }
+  ]
+}

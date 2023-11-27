@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,200;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <title>YAP</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- ======================= HEADER ======================= -->
+      <header>
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">mail</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+
+      <!-- ======================= SAIDEBAR ======================= -->
+      <aside>
+        <div class="sidebar-title">
+          <h1 class="sidebar-brand">Brand name</h1>
+          <span class="material-icons-outlined" onclick="closeSidebar()"
+            >close</span
+          >
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item active">
+            <span class="material-icons-outlined">dashboard</span>Dashboard
+          </li>
+          <a href="/pages/products.html">
+            <li class="sidebar-list-item">
+              <span class="material-icons-outlined">inventory_2</span>Products
+            </li>
+          </a>
+          <a href="/pages/users.html">
+            <li class="sidebar-list-item">
+              <span class="material-icons-outlined">groups</span>Users
+            </li>
+          </a>
+          <a href="/pages/orders.html">
+            <li class="sidebar-list-item">
+              <span class="material-icons-outlined">dvr</span>Orders
+            </li>
+          </a>
+        </ul>
+      </aside>
+
+      <!-- ======================= MAIN ======================= -->
+      <main>
+        <div class="main-title">
+          <h2>DASHBOARD</h2>
+        </div>
+
+        <div class="main-cards">
+          <a href="/pages/users.html">
+            <div class="card">
+              <div class="card-inner">
+                <h3>USERS</h3>
+                <span class="material-icons-outlined">groups</span>
+              </div>
+              <h1 id="users-count">0</h1>
+            </div>
+          </a>
+
+          <a href="/pages/products.html">
+            <div class="card">
+              <div class="card-inner">
+                <h3>PRODUCTS</h3>
+                <span class="material-icons-outlined">inventory_2</span>
+              </div>
+              <h1 id="products-count">20</h1>
+            </div>
+          </a>
+
+          <a href="/pages/orders.html">
+            <div class="card">
+              <div class="card-inner">
+                <h3>ORDERS</h3>
+                <span class="material-icons-outlined">dvr</span>
+              </div>
+              <h1 id="orders-count">20</h1>
+            </div>
+          </a>
+        </div>
+
+        <div class="charts">
+          <div class="charts-card">
+            <h2 class="chart-title">Top 5 Products</h2>
+            <div id="bar-chart"></div>
+          </div>
+
+          <div class="charts-card">
+            <h2 class="chart-title">Purchase and Sales Orders</h2>
+            <div id="area-chart"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.44.0/apexcharts.min.js"
+      integrity="sha512-9ktqS1nS/L6/PPv4S4FdD2+guYGmKF+5DzxRKYkS/fV5gR0tXoDaLqqQ6V93NlTj6ITsanjwVWZ3xe6YkObIQQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
